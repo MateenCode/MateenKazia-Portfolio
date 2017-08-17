@@ -1,0 +1,86 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+.mySlides {display:none}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('https://www.highreshdwallpapers.com/wp-content/uploads/2011/09/Epic-High-Definition-City-Wallpaper.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://www.highreshdwallpapers.com/wp-content/uploads/2011/09/Epic-High-Definition-City-Wallpaper.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("https://www.highreshdwallpapers.com/wp-content/uploads/2011/09/Epic-High-Definition-City-Wallpaper.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+footer{
+  padding:2%;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+.gitLink{
+  font-size: 22px;
+  text-decoration: none;
+}
+
+
+.gitLink a{
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+.gitLink p{
+  padding-left: 30%;
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+#display{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.w3-card-4{
+  width: 25%;
+  margin: 10px 0px 10px 0px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
